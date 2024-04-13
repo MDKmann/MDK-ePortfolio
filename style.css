@@ -3,7 +3,7 @@
     font-family: 'lato', sans-serif;
     padding: 0;
     margin: 0;
-    box-sizing: border;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -98,6 +98,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -145,4 +146,8 @@ padding-top: 20px;
     flex: 1;
     display: flex;
     align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }
